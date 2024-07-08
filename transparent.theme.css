@@ -2483,6 +2483,9 @@ body {
 .wrapper_f9f2ca.mentioned_d5deea .repliedMessage_f9f2ca:before {
   border-color: hsl(var(--mention-hsl));
 }
+.wrapper_f9f2ca.replying_d5deea {
+  border-color: hsla(var(--reply-hsl), var(--reply-opacity));
+}
 .wrapper_f9f2ca.replying_d5deea:before {
   display: none;
 }
